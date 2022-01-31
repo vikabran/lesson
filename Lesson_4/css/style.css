@@ -1,0 +1,71 @@
+/* Обнуляючий стиль */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2"),
+		url("../fonts/CircularStd-BookItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.lato {
+	font-family: "Lato", sans-serif;
+	font-size: 700;
+}
+
+.circular400 {
+	font-family: "CircularStd", sans-serif;
+	font-weight: 400;
+	color: green;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 10px 10px 10px #000;
+	text-transform: capitalize;
+	line-height: 2;
+}
+
+.circular700 {
+	font-family: "CircularStd", sans-serif;
+	font-weight: 700;
+	color: hotpink;
+	text-align: right;
+	text-decoration: overline;
+	text-transform: lowercase;
+	text-indent: 10px;
+	white-space: 5px;
+	word-spacing: 5px;
+}
+
+.circular900 {
+	font-family: "CircularStd", sans-serif;
+	font-weight: 900;
+	color: red;
+	text-align: justify;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
